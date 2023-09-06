@@ -1,0 +1,34 @@
+level 0:(username)ssh bandit0@bandit.labs.overthewire.org -p 2220
+password:bandit0
+commands used: ls -alps : used to list the files in the directory
+cat readme: NH2SQwcBdpmTEzi3bvBHMM9H66vVXjl( to cat the contents of the readme file)
+lesson: i learnt how to list the conntents in a directory and also how to use the cat command to diplay the password to level 
+
+level 1: username ssh bandit1@bandit.labs.overthewire.org -p 2220
+password:  NH2SQwcBdpmTEzi3bvBHMM9H66vVXjl
+commands used: ls -alps: to list the files
+cat ./-: rRGizSaX8Mk1RTb1CNQoXTcYWU6lgzi(to display the contents of the file)
+lesson: i learnt how to find hidden files and also to display the password hidden in the file
+
+level 2: username ssh bandit2@bandit.labs.overthewire.org -p 2220
+password: rRGizSaX8Mk1RTb1CNQoXTcYWU6lgzi
+commands used: ls -alps:used to list the files
+cat spaces\ in\ this\ filename: aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+lesson: learnt to find locate the password in the spaces file
+
+level 3: username ssh bandit3@bandit.labs.overthewire.org -p 2220
+password:aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+command used: ls -alps: to list the files
+cd inhere/: to change the directory
+ls -al: to list all files
+cat .hidden: 2EW7BBsr6MMoJ2HjW067dm8EgX26xNe: to cat the contents of the file
+lesson: learnt how to change directories to locate hidden files
+
+level 4: username ssh bandit4@bandit.labs.overthewire.org -p 2220
+password:  2EW7BBsr6MMoJ2HjW067dm8EgX26xNe
+command used: ls -alps: to list the contents in a directory
+cd inhere/ : to change directories
+ls : to list the files
+find . -type f | xargs file: to find the human readable file
+man xargs: find more details on the type of file
+cat ./-file07: lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR: to  cat the file and also display the password
